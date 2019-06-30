@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CheapMovies.Common\CheapMovies.Common.csproj" Version="1.0.0" />
+    <ProjectReference Include="..\CheapMovies.Domain\CheapMovies.Domain.csproj" Version="1.0.0" />
+    <ProjectReference Include="..\CheapMovies.Services\CheapMovies.Services.csproj" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Web", "CheapMovies.Web\CheapMovies.Web.csproj", "{CCDC7792-08D8-4CA5-939D-63F9635C107D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Api", "CheapMovies.Api\CheapMovies.Api.csproj", "{EB6404CF-E91F-48E8-A11C-B66AA7271892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Services", "CheapMovies.Services\CheapMovies.Services.csproj", "{0509A21C-6C3E-4050-8A23-763B5F4CFCC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Common", "CheapMovies.Common\CheapMovies.Common.csproj", "{FF6449F7-13BF-40BE-BE35-24EB8688233A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Domain", "CheapMovies.Domain\CheapMovies.Domain.csproj", "{824547F5-1D59-4452-90A3-5D229C8FED93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Store", "CheapMovies.Store\CheapMovies.Store.csproj", "{8959C693-AED4-4D8B-BF9E-DCBB12398EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheapMovies.Tests", "CheapMovies.Tests\CheapMovies.Tests.csproj", "{C57C097A-4FA1-430C-B3BB-903C8E526001}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDC7792-08D8-4CA5-939D-63F9635C107D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDC7792-08D8-4CA5-939D-63F9635C107D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDC7792-08D8-4CA5-939D-63F9635C107D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDC7792-08D8-4CA5-939D-63F9635C107D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6404CF-E91F-48E8-A11C-B66AA7271892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6404CF-E91F-48E8-A11C-B66AA7271892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6404CF-E91F-48E8-A11C-B66AA7271892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6404CF-E91F-48E8-A11C-B66AA7271892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0509A21C-6C3E-4050-8A23-763B5F4CFCC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0509A21C-6C3E-4050-8A23-763B5F4CFCC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0509A21C-6C3E-4050-8A23-763B5F4CFCC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0509A21C-6C3E-4050-8A23-763B5F4CFCC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF6449F7-13BF-40BE-BE35-24EB8688233A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF6449F7-13BF-40BE-BE35-24EB8688233A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF6449F7-13BF-40BE-BE35-24EB8688233A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF6449F7-13BF-40BE-BE35-24EB8688233A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824547F5-1D59-4452-90A3-5D229C8FED93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824547F5-1D59-4452-90A3-5D229C8FED93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824547F5-1D59-4452-90A3-5D229C8FED93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824547F5-1D59-4452-90A3-5D229C8FED93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8959C693-AED4-4D8B-BF9E-DCBB12398EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8959C693-AED4-4D8B-BF9E-DCBB12398EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8959C693-AED4-4D8B-BF9E-DCBB12398EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8959C693-AED4-4D8B-BF9E-DCBB12398EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57C097A-4FA1-430C-B3BB-903C8E526001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57C097A-4FA1-430C-B3BB-903C8E526001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57C097A-4FA1-430C-B3BB-903C8E526001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57C097A-4FA1-430C-B3BB-903C8E526001}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CheapMovies.Api\CheapMovies.Api.csproj" Version="1.0.0" />
+    <ProjectReference Include="..\CheapMovies.Common\CheapMovies.Common.csproj" Version="1.0.0" />
+    <ProjectReference Include="..\CheapMovies.Domain\CheapMovies.Domain.csproj" Version="1.0.0" />
+    <ProjectReference Include="..\CheapMovies.Services\CheapMovies.Services.csproj" Version="1.0.0" />
+    <ProjectReference Include="..\CheapMovies.Store\CheapMovies.Store.csproj" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="moq" Version="4.12.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
