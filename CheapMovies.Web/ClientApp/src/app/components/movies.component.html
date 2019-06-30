@@ -5,9 +5,10 @@
     <div *ngIf="movies.length > 0">
         <div class="row">
             <div class="col-sm-6">
-                <button type="button" class="btn btn-light mr-2" (click)="orderBy('title','asc')">Alphabetical</button>
-                <button type="button" class="btn btn-light mr-2" (click)="orderBy('year','asc')">Oldest</button>
-                <button type="button" class="btn btn-light mr-2" (click)="orderBy('year','desc')">Newest</button>
+                <button id="alphabetical-button" type="button" class="btn btn-light mr-2" (click)="orderBy('title','asc')">Alphabetical</button>
+                <button id="oldest-button" type="button" class="btn btn-light mr-2" (click)="orderBy('year','asc')">Oldest</button>
+                <button id="newest-button" type="button" class="btn btn-light mr-2" (click)="orderBy('year','desc')">Newest</button>
+                <label class="small mt-3" id="order-by-label">Ordered by: {{sortField}} {{sortOrder}}</label>
             </div>
             <div class="col-sm-6">
                 <p class="small mt-3">The [stored] tag, if present, indicates last recorded price (not live).</p>

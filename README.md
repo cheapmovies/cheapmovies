@@ -41,6 +41,8 @@ The following steps are used to deal with providers' web service failures:
 - If failed, retry X times, waiting for Y seconds between failures. (X and Y are configured in appsettings.json.)
 - If it still fails after X times, retrieve the stored copy, with a tag as coming "from store".
 
-## Unit Testing
+## Tests
 
-The unit test covers the movie service logic for success and failure scenarios, with the latter retrieving from the local store as a backup.
+- Backend: The unit test covers the movie service logic for success and failure scenarios, with the latter retrieving from the local store as a backup.
+- Frontend: Protractor end-to-end tests for page title and sorting actions.
+

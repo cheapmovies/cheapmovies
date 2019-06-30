@@ -12,6 +12,8 @@ export class MoviesComponent implements OnInit {
   public moviesLoaded = false;
   public providers: string[];
   public movies: Movie[] = new Array();
+  public sortField = '';
+  public sortOrder = '';
 
   constructor(
     private movieService: MovieService
@@ -38,6 +40,8 @@ export class MoviesComponent implements OnInit {
   }
 
   public orderBy(field: string, order: string) {
-    this.movies = _.orderBy(this.movies, field, order);
+    this.sortField = field;
+    this.sortOrder = order;
+    this.movies = _.orderBy(this.movies, this.sortField, this.sortOrder);
   }
 }
