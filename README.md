@@ -14,7 +14,7 @@ A demo of this app can be found at [http://cheapmovies.azurewebsites.net](http:/
 ## Architecture
 
 Designed to eventually evolve to a bigger application, the app is organised into multiple projects.
-- CheapMovies.Api: Contains a thin controller that calls the service layer. Currently, it set up by the same application builder as the SPA. It can have its own application builder startup when moving towards a microservice setup.
+- CheapMovies.Api: Contains a thin controller that calls the service layer. Currently, it is set up by the same application builder as the SPA. It can have its own application builder startup when moving towards a microservice setup.
 - CheapMovies.Common: For utilities and constants. It currently contains the following:
   - RetryHelper: A simple retry utility for retrying an operation when it fails. For production, it can be replaced by a more robust solution like Polly.
   - Constants
