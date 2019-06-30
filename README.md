@@ -20,8 +20,8 @@ Designed to eventually evolve to a bigger application, the app is organised into
   - Constants
 - CheapMovies.Domain: For entities like movie.
 - CheapMovies.Services: The main engine of the server. It contains the following services:
-  - MovieDataService: Handles the communication with the data providers, using the set up configured in appsettings.json.
-  - MovieService: Uses the RetryHelper to call MovieDataService. If it fails after multiple retries, it retrieves stored data from the local store.
+  - MovieDataService: Handles the communication with the data providers, using the set up configured in appsettings.json. It uses RetryHelper to make multiple attempts.
+  - MovieService: Calls MovieDataService and uses the local store. The result is stored in the local store if MovieDataService retrieves succesfully. Otherwise, it takes the value from the local store.
 - CheapMovies.Store: A simple key-value data store solution that uses sqlite. May be replaced by a more performant service like Redis.
 - CheapMovies.Tests: xUnit tests
 - CheapMovies.Web: Contains the SPA, built with Angular. It also sets up the server that hosts the API and services.
