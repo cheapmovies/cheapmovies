@@ -22,6 +22,7 @@ Designed to eventually evolve to a bigger application, the app is organised into
 - CheapMovies.Store: A simple key-value data store solution that uses sqlite. May be replaced by a more performant service like Redis.
 - CheapMovies.Tests: xUnit tests
 - CheapMovies.Web: Contains the SPA, built with Angular. It also sets up the server that hosts the API and services.
+  - The SPA does not have logic. It simply presents data retrieved from the API asynchronously, plus simple features like sorting (movies and prices).
 
 ## Configuration
 
