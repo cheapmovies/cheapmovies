@@ -10,6 +10,7 @@ A demo of this app can be found at [http://cheapmovies.azurewebsites.net](http:/
 - The 2 data providers are currently on the same server, and using the same security credentials, but can have different URL's and credentials in the future.
 - The providers may return errors, but, from experience, usually send the correct output given enough retries, most of the time.
 - The providers use a common movie ID format XX0000000 where XX is the two-character provider code, and 0000000 is the common movie ID shared by them.
+- The data providers have the same list of movies. The app has chosen the first provider as the source for the movie list.
 
 ## Architecture
 
