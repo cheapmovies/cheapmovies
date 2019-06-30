@@ -1,6 +1,6 @@
 # Cheap Movies
 
-Cheap Movies is a web app built with .Net Core and Angular. It is inspired by the front page layout of Booko.com.au, which lists the featured books and the prices/retailers list in a tiled layout.
+Cheap Movies is a web app built with .Net Core and Angular. It is inspired by the front page of Booko.com.au, which lists the featured books and the prices/retailers list in a tiled layout.
 
 A demo of this app can be found at [http://cheapmovies.azurewebsites.net](http://cheapmovies.azurewebsites.net).
 
