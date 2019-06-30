@@ -39,4 +39,4 @@ The following steps are used to deal with providers' web service failures:
 
 ## Unit Testing
 
-The unit test covers the movie service logic that retrieves from the local store if the web service fails.
+The unit test covers the movie service logic for success and failure scenarios, with the latter retrieving from the local store as a backup.
